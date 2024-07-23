@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "Interview preparation with JavaScript 2.0",
+    "price": "Rs. 9000/-",
+    "type": "Course",
+    "icon": "./coursesImg/menuDnd.png",
+    "image": "./coursesImg/image1.png"
+  },
+  {
+    "id": "2",
+    "title": "Aptitude - Averages, Mixtures & Allegation",
+    "price": "Free",
+    "type": "Mock Test",
+    "icon": "./coursesImg/menuDnd.png",
+    "image": "./coursesImg/image2.png"
+  },
+  {
+    "id": "3",
+    "title": "Aptitude - Simple & Compound Interest",
+    "price": "Free",
+    "type": "Mock Test",
+    "icon": "./coursesImg/menuDnd.png",
+    "image": "./coursesImg/image3.png"
+  },
+  {
+    "id": "4",
+    "title": "Aptitude - Partnership",
+    "price": "Free",
+    "type": "Mock Test",
+    "icon": "./coursesImg/menuDnd.png",
+    "image": "./coursesImg/image4.png"
+  },
+  {
+    "id": "5",
+    "title": "Aptitude - Time & Work",
+    "price": "Free",
+    "type": "Mock Test",
+    "icon": "./coursesImg/menuDnd.png",
+    "image": "./coursesImg/image5.png"
+  }
+]
