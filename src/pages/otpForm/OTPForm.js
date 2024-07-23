@@ -7,13 +7,11 @@ const OTPForm = () => {
   const handleChange = (e, index) => {
     const value = e.target.value;
     if (/^\d*$/.test(value)) {
-      // Allow only digits
       const newOtp = [...otp];
       newOtp[index] = value;
       setOtp(newOtp);
 
       if (value && index < 3) {
-        // Move to the next input field
         document.getElementById(`otp-input-${index + 1}`).focus();
       }
 
@@ -31,7 +29,6 @@ const OTPForm = () => {
 
   const handleKeyDown = (e, index) => {
     if (e.key === "Backspace" && !otp[index] && index > 0) {
-      // Move to the previous input field on Backspace
       document.getElementById(`otp-input-${index - 1}`).focus();
     }
   };
