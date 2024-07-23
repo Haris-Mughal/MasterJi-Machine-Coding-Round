@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import Logo from './components/Logo';
+import OTPForm from './pages/otpForm/OTPForm';
+import CourseList from './pages/courseList/CourseList';
+import Batches from './pages/batches/Batches';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="min-h-screen flex flex-col">
+        <div className="flex-1">
+          <Routes>
+            <Route path="/otp-form" element={<OTPForm />} />
+            <Route path="/course-list" element={<CourseList />} />
+            <Route path="/batches" element={<Batches />} />
+            <Route path="/" element={<Navigate to="/otp-form" />} />
+          </Routes>
+        </div>
+        <Logo />
+      </div>
+    </Router>
   );
 }
 
