@@ -10,11 +10,9 @@ MasterJi is a project developed as part of a machine coding round. This project 
 
 ## Technologies Used
 
-- JavaScript
 - React
-- Node.js
-- Express
-- MongoDB
+- JavaScript
+- TailwindCSS
 
 ## Installation
 
@@ -53,7 +51,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or suggestions, feel free to open an issue or contact us at [harismughal@example.com](mailto:harismughal@example.com).
+If you have any questions or suggestions, feel free to open an issue or contact us at [harismirza3456@gmail.com](mailto:harismirza3456@gmail.com).
 
 ## 🔗 **Let's Connect** 🤝
 
