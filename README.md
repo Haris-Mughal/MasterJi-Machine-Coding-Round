@@ -45,6 +45,15 @@ To set up this project locally, follow these steps:
 - **Understand the approach**: Read through the code and comments to understand the problem-solving approach.
 - **Test the code**: Run the application locally to test the implemented solutions.
 
+## OTP-form 
+![WhatsApp Image 2024-07-24 at 3 21 06 PM](https://github.com/user-attachments/assets/745abdf6-d2f1-42ea-9118-66fe52184f21)
+
+## Drag n Drop
+![WhatsApp Image 2024-07-24 at 3 21 12 PM](https://github.com/user-attachments/assets/b861dea8-7fed-4709-a8e7-703b18c7cff5)
+
+## Batches
+![WhatsApp Image 2024-07-24 at 3 21 02 PM](https://github.com/user-attachments/assets/bd8ccfc0-d456-44e8-adee-e6a53ecacda5)
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
