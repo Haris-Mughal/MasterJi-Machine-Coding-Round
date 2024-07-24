@@ -2,6 +2,8 @@
 
 MasterJi is a project developed as part of a machine coding round. This project aims to provide solutions for the given coding challenges, showcasing problem-solving skills and coding proficiency.
 
+## visit: [my website](https://haris-mcr-react.vercel.app/).
+
 ## Features
 
 - Implements solutions for machine coding problems
